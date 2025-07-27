@@ -1,6 +1,27 @@
 # PDF Outline Extractor
 
-This tool extracts structured outlines (Title, H1, H2) from PDFs using PyPDF2. Built for Adobe "Connecting the Dots" Challenge.
+This project extracts structured headings from PDF documents using text position, font size, and font weight. It identifies titles, H1, and H2 levels and optionally filters them based on a user-defined persona.
+
+---
+
+## Features
+
+- Parses headings using PDF font properties
+- Supports bulk PDF processing
+- Outputs JSON with page numbers and heading hierarchy
+- Optional persona-based relevance filtering (Round 1B)
+
+---
+
+## Getting Started
+
+### 1. Clone and Install
+
+```bash
+git clone https://github.com/RockyAditya/pdf_outliner.git
+cd pdf_outliner
+pip install -r requirements.txt
+```
 
 ## How to Run
 

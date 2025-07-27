@@ -9,8 +9,7 @@ This project extracts structured headings from PDF documents using text position
 - Parses headings using PDF font properties
 - Supports bulk PDF processing
 - Outputs JSON with page numbers and heading hierarchy
-- Optional persona-based relevance filtering (Round 1B)
-
+  
 ---
 
 ## Getting Started
